@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+body{
+    background-color:hsl(235, 16%, 14%);
+    background-image: url(/launch-countdown-timer-main/launch-countdown-timer-main/images/bg-stars.svg);
+    color: white;    
+}
+
+h1{
+    padding-left: 50%;
+}
+
+.numeros div{
+    color: hsl(345, 95%, 68%);
+    border-radius: 10px;
+    padding: 25px;
+    align-items: center;
+    background-color: hsl(236, 21%, 26%);
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    
+}
+.numeros{
+    display: flex;
+    padding: 100px  0px  0px 200px;
+    justify-content: space-around;
+    font-size: 60px;
+}
+
+div.cronometro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px  0px  100px 230px;
+    color: hsl(237, 18%, 59%);
+    font-size: 20px;
+} 
+
+.rede-social img{
+    padding-top: 120px;
+    padding-left: 60px;
+}
+
+.rede-social img:hover{
+    opacity: 40%;
+}
+
+#facebook{
+    padding-left: 50%;
+}
+
+.rede-social{
+    background-image: url(/launch-countdown-timer-main/launch-countdown-timer-main/images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
