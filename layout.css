@@ -2,57 +2,76 @@
 
 body{
     background-color:hsl(235, 16%, 14%);
-    background-image: url(/launch-countdown-timer-main/launch-countdown-timer-main/images/bg-stars.svg);
-    color: white;    
+    background-image: url("./images/bg-stars.svg"),
+    url("./images/pattern-hills.svg");
+    background-size: 100% 100%, 100% 200px;
+    background-repeat: no-repeat;
+    color: white;   
+    height: 100vh;
+    width: 100vw; 
+    background-position: top, bottom;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
 }
 
 h1{
-    padding-left: 50%;
+    width: 100vw;
+    letter-spacing: 4px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
-.numeros div{
-    color: hsl(345, 95%, 68%);
+#dias,
+#horas,
+#minutos,
+#segundos{
     border-radius: 10px;
-    padding: 25px;
     align-items: center;
     background-color: hsl(236, 21%, 26%);
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    color: hsl(345, 95%, 68%);
+    padding: 25px;
     
 }
-.numeros{
+
+.relogio{
+    font-family: "Red Hat Text", sans-serif;
+    max-width: 400px;
     display: flex;
-    padding: 100px  0px  0px 200px;
     justify-content: space-around;
-    font-size: 60px;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 30px;
+    
 }
 
-div.cronometro{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0px  0px  100px 230px;
+.relogio p {
+    font-size: 14px;
+    letter-spacing: 3px;
     color: hsl(237, 18%, 59%);
-    font-size: 20px;
-} 
-
-.rede-social img{
-    padding-top: 120px;
-    padding-left: 60px;
+    margin-top: 18px;
 }
 
-.rede-social img:hover{
-    opacity: 40%;
-}
-
-#facebook{
-    padding-left: 50%;
+.conteiner-dias,
+.conteiner-horas,
+.conteiner-minutos,
+.conteiner-segundos{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .rede-social{
-    background-image: url(/launch-countdown-timer-main/launch-countdown-timer-main/images/pattern-hills.svg);
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .attribution { 
